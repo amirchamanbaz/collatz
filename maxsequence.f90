@@ -1,6 +1,6 @@
 !Find the starting number within a range of numbers for which the collatz sequence length is the highest 
 ! Algorithm takes ~4 seconds on an old laptop to find this number below 100 million, 60ms for below 1 million
-! Compile with "gfortran collatzsequence.f90 -o collatzsequence -O3"
+! Compile with "gfortran maxsequence.f90 -o maxsequence -O3"
     
     program collatzsequence
     use omp_lib !parallel computing hardly improves the algorithm speed and might introduce overhead, you can omit this if you want
